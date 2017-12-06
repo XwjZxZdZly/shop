@@ -18,6 +18,9 @@ import { MyPublishComponent } from './my-publish/my-publish.component';
 import { MyMsgComponent } from './my-msg/my-msg.component';
 import { VersionComponent } from './version/version.component';
 import { BarsComponent } from './bars/bars.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+import { MyInfoComponent } from './my-info/my-info.component';
 
 const routes:Routes = [
   {path:"",component:IndexComponent,children:[
@@ -29,6 +32,7 @@ const routes:Routes = [
   ]},
   {path:"detail",component:DetailComponent},
   {path:"order",component:OrderComponent},
+  {path:"myinfo",component:MyInfoComponent},
   {path:"mycart",component:MyCartComponent},
   {path:"mypublish",component:MyCollectComponent},
   {path:"mycollection",component:MyPublishComponent},
@@ -49,15 +53,15 @@ const routes:Routes = [
     IndexComponent,
     DetailComponent,
     OrderComponent,
-    MycartComponent,
-    MypublishComponent,
-    MycollectComponent,
     MyCartComponent,
     MyCollectComponent,
     MyPublishComponent,
     MyMsgComponent,
     VersionComponent,
-    BarsComponent
+    BarsComponent,
+    FooterComponent,
+    HeaderComponent,
+    MyInfoComponent
   ],
   imports: [
     BrowserModule,
