@@ -9,10 +9,17 @@ import { HomeComponent } from './home/home.component';
 import { BuyComponent } from './buy/buy.component';
 import { SaleComponent } from './sale/sale.component';
 import { MineComponent } from './mine/mine.component';
+import { IndexComponent } from './index/index.component';
 
 const routes:Routes = [
-  {path:"",component:IndexComponent},
-  {path:"home",component:ProductDetailComponent}
+  {path:"",component:IndexComponent,children:[
+    {path:"",redirectTo:"/home",pathMatch:"full"},
+    {path:"home",component:HomeComponent},
+    {path:"buy",component:BuyComponent},
+    {path:"sale",component:SaleComponent},
+    {path:"mine",component:MineComponent}  
+  ]}
+ 
 ]
 
 @NgModule({
@@ -21,7 +28,8 @@ const routes:Routes = [
     HomeComponent,
     BuyComponent,
     SaleComponent,
-    MineComponent
+    MineComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
