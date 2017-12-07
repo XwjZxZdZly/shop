@@ -38,6 +38,7 @@ const routes:Routes = [
   {path:"mycollection",component:MyPublishComponent},
   {path:"mymsg",component:MyMsgComponent},
   {path:"version",component:VersionComponent},
+  {path:"cate",component:CateComponent}
   
   
 
