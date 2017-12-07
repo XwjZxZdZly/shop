@@ -2,8 +2,52 @@
     width: 100%;
     height: 2.018519rem;
     background: #5fd1c5;
+    overflow: hidden;
+    .title{
+        font-weight: normal;
+        font-size: .351852rem;
+        color: white;
+        text-align: center;
+        line-height: 2.018519rem;
+    }
 }
 .home-container{
-    width: 100px;
-    
+    width: 100%;
+    height: 14.324074rem;
+    overflow: auto;
+    .home-category{
+        margin-top:.259259rem; 
+        width: 100%;
+        height: 4.851852rem;
+        background: deeppink;
+        position: relative;
+        h1{
+            width: 100%;
+            color: white;
+            font-size: .703704rem;
+            font-weight: normal;
+            text-align: center;
+            padding-top:.925926rem; 
+        }
+        h3{
+            width: 100%;
+            color: white;
+            font-size: .324074rem;
+            font-weight: normal;
+            text-align: center;
+            padding-top: .324074rem;
+        }
+        .home-shopping{
+            width: 2.777778rem;
+            height: .722222rem;
+            position: absolute;
+            left: 3.611111rem;
+            bottom:.972222rem;
+            text-align: center;
+            line-height: .722222rem;
+            border-radius: .361111rem;
+            color: white;
+            background: rgba($color: #000000, $alpha: 0.2)
+        }
+    }
 }

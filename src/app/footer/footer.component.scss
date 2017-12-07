@@ -1,0 +1,46 @@
+.foot-wrapper{
+    width: 100%;
+    height: 1.435185rem;
+    a{
+        display: block;
+        width: 25%;
+        float: left;
+        color: #696969;
+        width: 25%;
+        height: 1.435185rem;
+        line-height: 1.435185rem;
+        position: relative;
+        i{
+            position: absolute;
+            font-size: .527778rem;
+            left: .981481rem;
+        }
+        #foot-home{
+            font-size: .740741rem;
+            left: .87963rem;
+            bottom: .185185rem;
+        }
+        #foot-buy{
+            bottom: .231481rem;
+        }
+        #foot-sale{
+            bottom: .185185rem;            
+        }
+        #foot-mine{
+            font-weight: bold;  
+            bottom: .185185rem;            
+        }
+        span{
+            display: block;
+            width: 100%;
+            padding-top: .314815rem;
+            font-size: .212963rem;
+            color: #696969;
+            text-align: center;
+        }
+    }
+    
+}
+
+
+.active{color: #5fd1c5!important;}
