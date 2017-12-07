@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-
+  private actIndex:number=0;
   constructor() { }
 
   ngOnInit() {
   }
-
+  doActive(idx){
+      this.actIndex = idx;
+  }
 }
