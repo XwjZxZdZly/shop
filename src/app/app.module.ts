@@ -19,6 +19,8 @@ import { BarsComponent } from './bars/bars.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { MyInfoComponent } from './my-info/my-info.component';
+import { CartItemComponent } from './cart-item/cart-item.component';
+import { CateComponent } from './cate/cate.component';
 
 const routes:Routes = [
   {path:"",component:IndexComponent,children:[
@@ -59,7 +61,9 @@ const routes:Routes = [
     BarsComponent,
     FooterComponent,
     HeaderComponent,
-    MyInfoComponent
+    MyInfoComponent,
+    CartItemComponent,
+    CateComponent
   ],
   imports: [
     BrowserModule,
