@@ -5,9 +5,17 @@ body,html{
     width: 100%;
     height: 100%;
 }
+<<<<<<< HEAD
 
 a{text-decoration: none;}
 
 ul li{list-style: none;}
 
 a,span,li,div,p,h1,h2,h3{font-family: "微软雅黑"}
+=======
+#app-layout>.content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+}
+>>>>>>> 91e6438d382b75f68257402d9dd894184e2d1654
