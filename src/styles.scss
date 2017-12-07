@@ -11,6 +11,12 @@ html,body,.all-container{
     overflow: hidden;
 }
 
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 a{text-decoration: none;}
 
 ul li{list-style: none;}
