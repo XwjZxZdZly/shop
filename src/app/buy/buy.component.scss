@@ -1,0 +1,133 @@
+#buy{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  .header{
+    color: white;
+    background: #5fd1c5;
+    height: 1.435185rem;
+    width: 100%;
+    .where{
+      width: 1.111111rem;
+      height: 100%;
+      text-align: center;
+      float: left;
+      i{
+        margin-top: .212963rem;
+        width: 100%; 
+        display: block;
+        font-size: .444444rem;
+      }
+      span{
+        width: 100%; 
+        margin-top: .166667rem;
+        display: block;
+        font-size: .240741rem;
+        
+      }
+    }
+
+    .seach{
+      margin-left: .296296rem;
+      width: 7.157407rem;
+      height: 100%;
+      float: left;
+      padding: .277778rem 0;
+      box-sizing: border-box;
+      i{
+        height: 100%;
+        color: #5fd1c5;
+        border-bottom-left-radius: .092593rem;
+        border-top-left-radius: .092593rem;
+        line-height:0.8796292rem;
+        width: 1.046296rem;
+        background: white;
+        font-size: .444444rem;
+        float: left;
+        text-align: center;
+      }
+      input{
+        outline: 0;
+        border-bottom-right-radius: .092593rem;
+        border-top-right-radius: .092593rem;
+        float: left;
+        height: 100%;
+        display: block;
+        font-size: .425926rem;
+        color: #5fd1c5;
+        border:none;
+        width: 6.111111rem;
+      }
+    }
+    .meau{
+      height: 100%;
+      width: 1.166667rem;
+      display: block;
+      float: right;
+      text-align: center;
+      line-height: 1.435185rem;
+      font-size: .555556rem;
+    }
+    
+  }
+
+  ul{
+    flex: 1;
+    width: 100%;
+    li{
+      width: 100%;
+      .top{
+          height: 1.833333rem;
+          width: 100%;
+
+            i{
+              font-size: 1.12963rem;
+              height: 1.833333rem;
+              width: 1.833333rem;
+              text-align: center;
+              display: block;
+              float: left;
+              color: #ebebeb;
+              line-height: 1.833333rem;
+            }
+            .info{
+              height: 100%;
+              overflow: hidden;
+              float: left;
+              padding: .481481rem 0;
+              box-sizing: border-box;
+              p{
+                font-size: .277778rem;
+                width: 100%;
+              }
+            }
+            .price{
+              height: 1.833333rem;
+              float: right;
+              width: 1.851852rem;
+              text-align: center;
+              color: #f7a471;
+              font-style: .37037rem;
+              line-height: 1.833333rem;
+            }
+         
+      }
+      .mid{
+        width: 100%;
+        overflow: hidden;
+      }
+      .desc{
+        width:100%;
+        padding:.407407rem .305556rem ;
+        box-sizing: border-box;
+        text-align: left;
+
+      }
+      
+    }
+  }
+
+
+}
