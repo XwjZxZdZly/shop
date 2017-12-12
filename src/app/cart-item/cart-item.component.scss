@@ -2,5 +2,25 @@
     float: left
 }
 .fr{
-    float: right
+    float: right 
+}
+.item{
+    width: 100%;
+    border-bottom: 1px solid silver;
+    &-select{
+            width: 100%;
+            margin-top: 5px;
+           }
+    &-info{
+    width: 100%;
+    margin-top: 5px;
+    }
+    &-op{
+        width: 100%;
+        margin-top: 5px;
+        }
+    &-num{
+        width: 100%;
+        margin-top: 5px;
+    }    
 }
