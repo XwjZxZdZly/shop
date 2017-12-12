@@ -1,0 +1,10 @@
+.head{
+    width: 100%;
+}
+.cart-content{
+    flex:1;
+    overflow: auto;
+    .big{
+        height: 1500px;
+    }
+}
