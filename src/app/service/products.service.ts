@@ -1,9 +1,16 @@
 import { Injectable } from '@angular/core';
+import { Http } from '@angular/http';
+import { Observable } from 'rxjs';
+import "rxjs/Rx";
 
 @Injectable()
 export class ProductsService {
 
-  constructor() { }
+  constructor(private http:Http) {
+    getProduct():Observable<any>{
+      return this.http.get("http://localhost:4396/getProduct").map(res=>res.json())
+    }
+  }
 
 }
 
