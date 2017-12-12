@@ -7,11 +7,11 @@ import "rxjs/Rx";
 export class ProductsService {
 
   constructor(private http:Http) {
-    getProduct():Observable<any>{
-      return this.http.get("http://localhost:4396/getProduct").map(res=>res.json())
-    }
+   
   }
-
+  getProduct():Observable<any>{
+    return this.http.get("http://localhost:4396/getProduct").map(res=>res.json())
+  }
 }
 
 export class Product{
