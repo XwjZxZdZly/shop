@@ -1,3 +1,16 @@
-<p>
-  cart-item works!
-</p>
+<div class="item">
+    <div class="item-select fl">
+        <input type="checkbox" name="">
+    </div>
+    <div class="item-info fl">
+        <dl>
+            <dt><img [src]="product.img"></dt>
+            <dd>product.title</dd>
+            <dd>{{product.price}}</dd>
+        </dl>
+    </div>
+    <div class="item-op fr">
+         <i class="iconfont">x</i>
+         <div class="item-num">×<span>{{product.num}}</span></div>
+    </div>
+</div>
