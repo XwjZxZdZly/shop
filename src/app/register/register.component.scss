@@ -1,0 +1,96 @@
+.register{
+    width: 100%;
+    height: 100%;
+    header{
+        width: 100%;
+        position: relative;
+        height: 1.333333rem;
+        background: #5fd1c5;
+        text-align: center;
+        line-height: 1.333333rem;
+        color: white;
+        font-size: .537037rem;
+        .jt{
+            position: absolute;
+            width: .37037rem;
+            left: .435185rem;
+            height: .694444rem; 
+            top: .314815rem;
+            
+        }
+        i{
+           display: block;
+           float: left;
+            // top: .314815rem;
+            font-size: .37037rem;
+            line-height: .694444rem !important; 
+        }
+    }
+    form{
+        background: #ebebeb;
+        height: 100%;
+
+    }
+    #user{
+        width: 100%;
+        height: 1.361111rem;
+        border: none;
+        margin-top: .25rem;
+        font-size: .444444rem;
+        border-bottom: .009259rem solid #ebebeb;
+        outline: none;
+        
+    }
+    #user::-webkit-input-placeholder{
+        color: #d1d1d1;
+        font-size: .444444rem;
+        display: block;
+        line-height:  1.8rem;
+}
+#pass{
+    width: 100%;
+    height: 1.361111rem;
+    border: none;
+    outline: none;
+    
+    font-size: .444444rem;
+    border-bottom: .009259rem solid #ebebeb;
+}
+#pass::-webkit-input-placeholder{
+    color: #d1d1d1;
+    font-size: .444444rem;
+    display: block;
+    line-height:  1.8rem;
+}
+#pass1{
+    width: 100%;
+    height: 1.361111rem;
+    outline: none;
+    
+    border: none;
+    font-size: .444444rem;
+}
+#pass1::-webkit-input-placeholder{
+    color: #d1d1d1;
+    font-size: .444444rem;
+    display: block;
+    line-height:  1.8rem;
+}
+.box{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 .305556rem;
+}
+#reg{
+    height:1.324074rem ;
+    background: #5fd1c5;
+    border: none;
+    width: 100%;
+    line-height: 1.324074rem ;
+    color:white;
+    font-size: .425926rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1.407407rem;
+}
+}

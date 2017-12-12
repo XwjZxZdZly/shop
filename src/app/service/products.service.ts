@@ -6,7 +6,6 @@ import "rxjs/Rx";
 @Injectable()
 export class ProductsService {
 
-<<<<<<< HEAD
   constructor(private http:Http) {}
   
 
@@ -41,21 +40,15 @@ export class Banner{
   ){
 
   }
-=======
-  constructor(private http:Http) {
-   
-  }
-  getProduct():Observable<any>{
-    return this.http.get("http://localhost:4396/getProduct").map(res=>res.json())
-  }
 }
-
 export class Product{
   constructor(
     public id:number,
     public title:string,
     public price:number,
     public num:number
-  ){}
->>>>>>> e3766d332d1a27d37e886700d745689edda470ab
+
+  ){
+
+  }
 }

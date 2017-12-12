@@ -10,11 +10,11 @@
     
       <input type="text">
     </div>
-    <i class="iconfont meau" >&#xe660;</i>
+    <a [routerLink]="['/cate']"><i class="iconfont meau" >&#xe660;</i></a>
   </div>
 
   <ul>
-    <li *ngFor="let comment of comment of comments;let idx = index ">
+    <li *ngFor="let comment of comment;let idx = index ">
       <div class="top">
           <i class="iconfont">&#xe603;</i>
           <div class="info">

@@ -22,16 +22,11 @@ import { MyInfoComponent } from './my-info/my-info.component';
 import { CartItemComponent } from './cart-item/cart-item.component';
 import { CateComponent } from './cate/cate.component';
 import { ProductsService } from './service/products.service';
+import { RegisterComponent } from './register/register.component';
 
 
 const routes:Routes = [
-  {path:"",component:IndexComponent,children:[
-    {path:"",redirectTo:"/home",pathMatch:"full"},
-    {path:"home",component:HomeComponent},
-    {path:"buy",component:BuyComponent},
-    {path:"sale",component:SaleComponent},
-    {path:"mine",component:MineComponent}  
-  ]},
+  {path:"cate",component:CateComponent},
   {path:"detail",component:DetailComponent},
   {path:"order",component:OrderComponent},
   {path:"myinfo",component:MyInfoComponent},
@@ -40,7 +35,16 @@ const routes:Routes = [
   {path:"mycollection",component:MyPublishComponent},
   {path:"mymsg",component:MyMsgComponent},
   {path:"version",component:VersionComponent},
-  {path:"cate",component:CateComponent}
+  {path:"register",component:RegisterComponent},  
+  {path:"",component:IndexComponent,children:[
+    {path:"",redirectTo:"/home",pathMatch:"full"},
+    {path:"home",component:HomeComponent},
+    {path:"buy",component:BuyComponent},
+    {path:"sale",component:SaleComponent},
+    {path:"mine",component:MineComponent}  
+  ]}
+ 
+
   
   
 
@@ -66,7 +70,8 @@ const routes:Routes = [
     HeaderComponent,
     MyInfoComponent,
     CartItemComponent,
-    CateComponent
+    CateComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
