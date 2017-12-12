@@ -21,7 +21,7 @@ import { HeaderComponent } from './header/header.component';
 import { MyInfoComponent } from './my-info/my-info.component';
 import { CartItemComponent } from './cart-item/cart-item.component';
 import { CateComponent } from './cate/cate.component';
-import { NgZorroAntdModule } from 'ng-zorro-antd';
+import { ProductsService } from './service/products.service';
 
 
 const routes:Routes = [
@@ -71,10 +71,9 @@ const routes:Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
-    HttpModule,
-    NgZorroAntdModule.forRoot()
+    HttpModule
   ],
-  providers: [],
+  providers: [ProductsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,7 @@
+import { ProductsService,Banner } from './../service/products.service';
 import { Component, OnInit } from '@angular/core';
+import {Http} from "@angular/http"
+
 
 @Component({
   selector: 'app-home.home',
@@ -7,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  banner:Banner[]
+
+  constructor(private http:Http,private productsService:ProductsService) { }
 
   ngOnInit() {
+    this.productsService.getHome()
+      .subscribe(banner=>this.banner = banner)
   }
 
+  ok(){
+    console.log(this.banner)
+  }
 }
