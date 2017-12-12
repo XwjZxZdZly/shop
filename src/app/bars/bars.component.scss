@@ -1,0 +1,16 @@
+.cate{
+    height: 1.45rem;
+    line-height: 1.45rem;
+    border-bottom: 0.00925rem solid #ccc;
+    &-box{
+        .fl{
+            i{
+                display: block;
+                float: left
+            }
+            div{
+                float: left;
+            }
+        }
+    }
+}
